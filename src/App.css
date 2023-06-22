@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  background-image: url('./Fondo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .App-logo {
@@ -35,4 +38,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Titulo{
+  color: white;
+}
+
+.Bandera{
+  align-items: center;
 }

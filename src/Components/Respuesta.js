@@ -28,9 +28,9 @@ function Bandera() {
     return (
         <>
         {flags ? (
-            <div className='Bandera'>
+            <div>
                 <h1 className='Titulo'>Nombre: {flags.name}</h1>
-                <img width={300} src={flags.flag} alt='Bandera'/>
+                <img width={250} src={flags.flag} alt='Bandera'/>
             </div>
         ) : (
             <p>Cargando...</p>
