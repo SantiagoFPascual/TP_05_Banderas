@@ -2,7 +2,7 @@
   text-align: center;
   background-image: url('./Fondo.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
 }
 
 .App-logo {
@@ -46,4 +46,68 @@
 
 .Bandera{
   align-items: center;
+  max-width: 300px;
+  background-color: #000000;
+  background-size: 1500px;
+  box-shadow: 0px 0px 20px rgb(0, 0, 0)
+}
+
+.center{
+  margin-left: 5%;
+  margin-top: 10%;
+}
+
+.boton-Enviar {
+  --font-color: #323232;
+  --bg-color: #3dff02a4;
+  --main-color: #323232;
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  border: 2px solid var(--main-color);
+  background-color: var(--bg-color);
+  box-shadow: 4px 4px var(--main-color);
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--font-color);
+  cursor: pointer;
+}
+
+.boton-Enviar:active {
+  box-shadow: 0px 0px var(--main-color);
+  transform: translate(3px, 3px);
+}
+
+.boton-Ayuda {
+  --font-color: #323232;
+  --bg-color: #0612b4a4;
+  --main-color: #323232;
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  border: 2px solid var(--main-color);
+  background-color: var(--bg-color);
+  box-shadow: 4px 4px var(--main-color);
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--font-color);
+  cursor: pointer;
+}
+
+.boton-Ayuda:active {
+  box-shadow: 0px 0px var(--main-color);
+  transform: translate(3px, 3px);
+}
+
+.input-Text {
+  margin: 30px;
+  background: none;
+  border: none;
+  outline: none;
+  max-width: 190px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 9999px;
+  box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+  color: #000000;
 }
