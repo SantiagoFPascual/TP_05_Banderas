@@ -12,7 +12,7 @@ function App() {
   const [pais, setPais] = useState(null);
   const [puntos, setPuntos] = useState(0);
   const [tiempo, setTiempo] = useState(15);
-  const [ayuda, setAyuda] = useState('_____');
+  const [ayuda, setAyuda] = useState('');
   const [letrasAyuda, setLetrasAyuda] = useState([]);
 
   //Crear array de paises

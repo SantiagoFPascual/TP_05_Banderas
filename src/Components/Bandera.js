@@ -1,4 +1,6 @@
 import React from "react";
+import { PaisShape } from "../shapes";
+import {string} from 'prop-types'
 
 
 function Bandera({pais, ayuda}) {
@@ -16,4 +18,10 @@ function Bandera({pais, ayuda}) {
         </>
     )
 }
+
+Bandera.prototype = {
+    pais: PaisShape,
+    ayuda: ArrayOf(string)
+}
+
 export default Bandera;
