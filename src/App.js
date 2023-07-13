@@ -58,7 +58,7 @@ function App() {
   //Funcion que cambia los datos al del proximo pais
   let proxBandera = () => {
       setPais(getPaisRandom());
-      setTiempo(15)
+      setTiempo(pais.name.length * 2)
       setAyuda('_____')
       setLetrasAyuda([])
   };
@@ -109,7 +109,7 @@ function App() {
           setTiempo(tiempo - 1)
         } else if(tiempo <= 0){
           setPuntos(puntos - 1);
-          proxBandera(0);
+          proxBandera();
         }
       }, 1000);
       return () => clearInterval(intervalo);

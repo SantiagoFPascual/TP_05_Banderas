@@ -90,6 +90,7 @@
   box-shadow: 4px 4px var(--main-color);
   font-size: 17px;
   font-weight: 600;
+  margin-left: 10px;
   color: var(--font-color);
   cursor: pointer;
 }
